@@ -1,0 +1,10 @@
+:root {
+    --background-color: #000000;
+    --font-color: #00FF00;
+}
+
+body {
+    background-color: /* var(--background-color); */;
+    font-family: "Raleway";
+     
+}

@@ -1,0 +1,47 @@
+.title {
+    
+}
+
+.bio {
+    width: 70%;
+    height: 360px;
+}
+
+.title__bio {
+    font-size: 52px;
+}
+
+.title__network {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.title__network__item {    
+    display: inline-block;
+    padding: 0.5rem;
+    
+}
+
+.title__network__link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 0 7rem;
+   padding: 0 2em;
+   width: 75%;
+}
+
+.profile__picture {
+    height: 360px;
+    width: 360px;
+    background-image: url(/assets/imagem_portfolio.png);
+    background-position: center;
+    border-radius: 100%;
+}

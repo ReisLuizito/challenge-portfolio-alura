@@ -1,0 +1,14 @@
+.about__container {
+    width: 57%;
+    padding: 0 2em;
+    margin: 0 7rem;
+}
+
+.about__title {
+    font-size: 32px;
+}
+
+.about__paragraph {
+    text-align: justify;
+    font-size: 16px;
+}
