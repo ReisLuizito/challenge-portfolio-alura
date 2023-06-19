@@ -3,12 +3,20 @@
 }
 
 .bio {
-    width: 70%;
+    width: 100%;
     height: 360px;
 }
 
 .title__bio {
     font-size: 52px;
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+   
+}
+
+.title__subsection {
+    font-size: 22px;
+    padding-bottom: 1.5rem;
 }
 
 .title__network {
@@ -31,16 +39,16 @@
 .title__container {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
     align-items:flex-start;
-    margin: 0 7rem;
-   padding: 0 2em;
-   width: 75%;
+    margin: 0 10rem;
+    padding: 0 2em;
+    width: 75%;
 }
 
 .profile__picture {
     height: 360px;
-    width: 360px;
+    width: 450px;
+    margin-top: 2rem;
     background-image: url(/assets/imagem_portfolio.png);
     background-position: center;
     border-radius: 100%;

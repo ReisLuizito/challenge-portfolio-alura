@@ -10,13 +10,15 @@ padding: 0.7rem;
     justify-content: space-between;
     align-items: center;
     font-size: 1rem;
-    padding: 0 2em;
-    margin: 0 7rem;
+    margin: 0 10rem;
+   padding: 0 2em;
+   width: 75%;
     
 }
 
 .menu__title {
 font-size: 1rem;
+margin-top: 1rem;
 }
 
 .menu__list {

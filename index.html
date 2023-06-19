@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <link href="./CSS/base.css" rel="stylesheet">
+    <link href="./CSS/base/reset.css" rel="stylesheet">
+    <link href="./CSS/base/base.css" rel="stylesheet">
     <link href="./CSS/menu/menu.css" rel="stylesheet">
     <link href="./CSS/title/title.css" rel="stylesheet">
     <link href="./CSS/about/about.css" rel="stylesheet">
@@ -14,8 +14,8 @@
     <link href="./CSS/academic/academic.css" rel="stylesheet">
     <link href="./CSS/experience/experience.css" rel="stylesheet">
     <link href="./CSS/contact/contact.css" rel="stylesheet">
-
-
+    <link href="./CSS/footer/footer.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <title>Luiz Guilherme | Portfólio</title>
 </head>
 
@@ -91,14 +91,14 @@
                 <div class="skills__box">
                     <ul>
                         <li class="skills__img" bootstrap> <img src="assets/js.svg" alt=""></li>
-                        <li class="skills__name">Javascript</li>
+                        <li class="skills__name" id="js">Javascript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
                         <li class="skills__img"> <img src="assets/bootstrap.svg"></li>
-                        <li class="skills__name">Bootstrap</li>
+                        <li class="skills__name" id="bootstrap">Bootstrap</li>
                     </ul>
                 </div>
 
@@ -112,14 +112,14 @@
                 <div class="skills__box">
                     <ul>
                         <li class="skills__img"> <img src="assets/react.svg" alt=""> </li>
-                        <li class="skills__name">React</li>
+                        <li class="skills__name" id="react">React</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
                         <li class="skills__img"> <img src="assets/css3-alt.svg" alt=""> </li>
-                        <li class="skills__name">CSS</li>
+                        <li class="skills__name" id="css">CSS</li>
                     </ul>
                 </div>
             </div>
@@ -130,43 +130,43 @@
     <div class="hobbies__line">
         <div class="hobbies__box">
             <ul>
-                <li class="hobbies__img"><img src="assets\skate_icon.png"></li>
-                <li class="hobbies__name"> Andar de skate</li>
+                <li class="hobbies__img"><img src="./assets/bicycle-solid.svg"></li>
+                <li class="hobbies__name" id="bike"> Andar de bicicleta</li>
             </ul>
         </div>
 
         <div class="hobbies__box">
             <ul>
-                <li class="hobbies__img"> <img src="assets\guitar_icon.png" alt=""></li>
-                <li class="hobbies__name">Tocar baixo</li>
+                <li class="hobbies__img"> <img src="./assets/dumbbell-solid.svg" alt=""></li>
+                <li class="hobbies__name">Treinar</li>
             </ul>
         </div>
 
         <div class="hobbies__box">
             <ul>
-                <li class="hobbies__img"> <img src="assets\headphones_icon.png" alt=""></li>
-                <li class="hobbies__name">Ouvir música</li>
+                <li class="hobbies__img"> <img src="./assets/headphones-solid.svg" alt=""></li>
+                <li class="hobbies__name" id="music">Ouvir música</li>
             </ul>
         </div>
 
         <div class="hobbies__box">
             <ul>
-                <li class="hobbies__img"><img src="assets\tv_icon.png" alt=""></li>
+                <li class="hobbies__img"><img src="./assets/desktop-solid.svg" alt=""></li>
                 <li class="hobbies__name">Assistir séries</li>
             </ul>
         </div>
 
         <div class="hobbies__box">
             <ul>
-                <li class="hobbies__img"> <img src="assets\forkspoon_icon.png" alt=""> </li>
+                <li class="hobbies__img"> <img src="./assets/utensils-solid.svg" alt=""> </li>
                 <li class="hobbies__name">Cozinhar</li>
             </ul>
         </div>
 
         <div class="hobbies__box">
             <ul>
-                <li class="hobbies__img"> <img src="assets\camera_icon.png" alt=""> </li>
-                <li class="hobbies__name">Tirar fotos</li>
+                <li class="hobbies__img"> <img src="./assets/gamepad-solid.svg" alt=""> </li>
+                <li class="hobbies__name">Jogar</li>
             </ul>
         </div>
     </div>
@@ -296,8 +296,8 @@
 
             <section class="footer">
                 <div class="footer__container">
-                    <p>Desenvolvido por Fulana de Tal</p>
-                    <p>2022</p>
+                    <p>Desenvolvido por Luiz Guilherme</p>
+                    <p>2023</p>
                 </div>
             </section>
     </div>

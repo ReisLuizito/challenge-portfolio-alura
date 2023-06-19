@@ -1,28 +1,61 @@
 .hobbies {
+    margin: 0 10rem;
     padding: 0 2em;
-    margin: 7em 7rem;
     width: 75%;
 }
 
 .hobbies__title {
     text-align: center;
     font-size: 32px;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
 }
 
 .hobbies__line {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 7rem;
     
 }
 
 .hobbies__box {
     width: 170px;
     height: 170px;
+    background-color: var(--font-color);
+    border-radius: 100%;
 }
 
 .hobbies__box ul {
     width: 150px;
     height: 170px;
     list-style: none;
-    background-color: var(--font-color)
+    
+}
+
+.hobbies__img {
+    width: 100px;
+    position: relative;
+    left: 70px;
+    top: 50px;
+}
+
+.hobbies__name {
+    width: 100px;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+
+#bike {
+    width: 100px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+#music {
+    width: 100px;
+    position: relative;
+    left: 40px;
+    top: 50px; 
 }

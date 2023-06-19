@@ -25,20 +25,22 @@
 */
 
 .experience {
-  padding: 0px 2em;
-  margin: 7em 7rem;
-  width: 75%;
+    margin: 0 10rem;
+    padding: 0 2em;
+    width: 75%;
 }
 
 .experience__section__title {
-    font-size: 32px;
-    text-align: center;
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
 }
 .experience__container {
     position: relative;
-    padding: 15px;
-    max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 10rem;
+    padding: 0 2em;
+    width: 75%;
 }
 
 .gallery__wrapper {

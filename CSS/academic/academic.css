@@ -1,17 +1,22 @@
 .academic {
+    margin: 0 10rem;
     padding: 0 2em;
-    margin: 7em 7rem;
     width: 75%;
+    
 }
 
 .academic__title {
     text-align: center;
     font-size: 32px;
+    margin-top: 2.5rem;
 }
 
 .academic__courses {
     display: flex;
     justify-content: center;
+    margin-bottom: 7rem;
+    
+    
 }
 
 .academic__courses__list {

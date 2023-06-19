@@ -1,28 +1,75 @@
 .skills {
+    margin: 0 10rem;
     padding: 0 2em;
-    margin: 7em 7rem;
     width: 75%;
 }
 
 .skills__title {
     text-align: center;
     font-size: 32px;
+    margin-bottom: 2.5rem;
 }
 
 .skills__line {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 7rem;
     
 }
 
 .skills__box {
     width: 170px;
     height: 170px;
+    background-color: var(--font-color);
+    border-radius: 100%;
+    
 }
 
 .skills__box ul {
-    width: 150px;
+    width: 180px;
     height: 170px;
     list-style: none;
-    background-color: var(--font-color)
+    
+}
+
+.skills__img {
+    width: 100px;
+    position: relative;
+    left: 70px;
+    top: 50px;
+}
+
+.skills__name {
+    width: 100px;
+    position: relative;
+    left: 60px;
+    top: 50px;
+}
+#js {
+    width: 100px;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+#css {
+    width: 100px;
+    position: relative;
+    left: 70px;
+    top: 50px;
+}
+
+#react {
+    width: 100px;
+    position: relative;
+    left: 65px;
+    top: 50px;
+}
+
+#bootstrap {
+width: 100px;
+    position: relative;
+    left: 50px;
+    top: 50px;
 }
