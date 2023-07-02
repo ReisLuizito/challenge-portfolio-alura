@@ -3,8 +3,19 @@
     --font-color: #00FF00;
 }
 
+html, body {
+  height: 100vh;
+  width: 100vw;
+}
 body {
-    background-color: /* var(--background-color); */;
+    background-color: var(--background-color); 
     font-family: "Raleway";
      
+}
+
+@media (max-width: 992px) {
+
+    body {
+        max-width: 992px;
+    }
 }

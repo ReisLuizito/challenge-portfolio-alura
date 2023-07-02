@@ -1,7 +1,3 @@
-.title {
-    
-}
-
 .bio {
     width: 100%;
     height: 360px;
@@ -11,12 +7,14 @@
     font-size: 52px;
     margin-top: 7rem;
     margin-bottom: 3rem;
+    color: var(--font-color);
    
 }
 
 .title__subsection {
     font-size: 22px;
     padding-bottom: 1.5rem;
+    color: var(--font-color);
 }
 
 .title__network {
@@ -28,6 +26,7 @@
 .title__network__item {    
     display: inline-block;
     padding: 0.5rem;
+    color: var(--font-color);
     
 }
 
@@ -52,4 +51,48 @@
     background-image: url(/assets/imagem_portfolio.png);
     background-position: center;
     border-radius: 100%;
+}
+
+@media (max-width: 992px) {
+    
+    .title {
+       width: 100%; 
+    }
+    
+    .title__container {
+        width: 100%;
+        align-items: center;
+        display: flex;
+        margin: 0 0;
+        padding: 0 0;
+        background-image: url(/assets/Foto_Profissional.png);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+
+    .profile__picture {
+        display: none;
+    }
+
+    .bio {
+        height: 100%;
+        margin: 0 1rem;
+        
+    }
+
+    .title__bio {
+        width: 100%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        margin: 0 0.5rem;
+        text-align:start;
+    }
+
+    .title__subsection {
+        margin-top: 7rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .title__network__item {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
 }

@@ -9,4 +9,16 @@
     font-size: 1rem;
     align-items: center;
     line-height: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.footer__container p {
+    color: var(--font-color);
+}
+
+@media (max-width: 992px) {
+    .footer {
+        margin: 0 0;
+        width: 100%;
+    }
 }

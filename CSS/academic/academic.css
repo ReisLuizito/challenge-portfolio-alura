@@ -9,12 +9,14 @@
     text-align: center;
     font-size: 32px;
     margin-top: 2.5rem;
+    color: var(--font-color);
 }
 
 .academic__courses {
     display: flex;
     justify-content: center;
     margin-bottom: 7rem;
+    justify-content: space-around;
     
     
 }
@@ -26,9 +28,24 @@
 .academic__courses__item__title {
     margin-left: 4.3em;
     font-size: 22px;
+    padding-bottom: 1rem;
+    color: var(--font-color);
 }
 
 .academic__courses__item__subtitle {
     margin-left: 6em;
     font-size: 16px;
+    color: var(--font-color);
+}
+
+@media (max-width:992px) {
+    
+    .academic {
+        margin: 0 0;
+    }
+    .academic__courses {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
